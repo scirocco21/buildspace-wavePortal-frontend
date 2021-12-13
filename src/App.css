@@ -1,0 +1,102 @@
+.mainContainer {
+  display: flex; 
+  justify-content: center;
+  width: 100%;
+  margin-top: 64px;
+}
+
+.dataContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 100%;
+}
+
+.header {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.bio {
+  text-align: center;
+  color: gray;
+  margin-top: 16px;
+  padding: 20px;
+}
+
+.info {
+  padding: 10px;
+  margin: 10px auto;
+  border-top: 2px solid transparent;
+  border-image: linear-gradient(to right, rgba(63,94,251,1) , rgba(252,70,107,1));
+  border-image-slice: 1;
+}
+.waveButton {
+  cursor: pointer;
+  margin: 20px auto;
+  padding: 8px;
+  border: 0;
+  border-radius: 5px;
+  width: 50%;
+  height: 40px;
+  background: rgb(63,94,251);
+  background: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+  color: white;
+  font-weight: bold;
+}
+
+.formContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+}
+
+#counter {
+  background-color: black;
+  color: white;
+  padding: 5px;
+  border-radius: 10px;
+  font-size: 1.2em;
+}
+
+.custom-shape-divider-top-1635626833 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1635626833 svg {
+    position: relative;
+    display: block;
+    width: calc(102% + 1.3px);
+    height: 50px;
+   
+}
+
+.custom-shape-divider-top-1635626833 .shape-fill {
+    fill: #FC466B;
+}
+
+.custom-shape-divider-bottom-1635629719 {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1635629719 svg {
+    display: block;
+    width: calc(102% + 1.3px);
+    height: 25px;
+}
+
+.custom-shape-divider-bottom-1635629719 .shape-fill {
+    fill: #3F5EFB;
+}
